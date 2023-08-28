@@ -1,13 +1,15 @@
 import React from "react";
 import icon from "../assets/icon.svg";
+import home_line from "../assets/home--line.png";
 
 const SearchBox = () => {
   return (
     <>
-      <div className="search-section">
+      <div className="search-section po-rela">
         {/* Search Section Container */}
-        <div className="container-fluid">
-          <div className="search-div">
+        <img src={home_line} class="home--line" alt="home line" />
+        <div className="container-fluid ">
+          <div className="search-div ">
             {/* Search Inner Content */}
             <div className="search-inner">
               <div className="search-content">

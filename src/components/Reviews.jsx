@@ -2,11 +2,15 @@ import React from "react";
 import starStrip from "../assets/star-strip.png";
 import userPic from "../assets/user-pic.png";
 import scrollIndicator from "../assets/scroll-Indicator.png";
+import start from "../assets/star.svg";
+import start_right from "../assets/start_right.png";
 
 const Reviews = () => {
   return (
-    <div className="review-section">
+    <div className="review-section po-rela">
       {/* Section Heading */}
+      <img src={start} alt="start" class="start-icon" />
+      <img src={start_right} alt="start_right" class="start-line" />
       <h2 className="text-center font-large">Don't take our word for it.</h2>
       <h2 className="text-center font-large">Take theirs...</h2>
       <p className="works-text text-center">

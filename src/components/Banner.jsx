@@ -5,9 +5,9 @@ import icon from "../assets/icon.svg";
 const Banner = () => {
   return (
     <div className="home-page">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-md-6 instant-container mt-5">
+          <div className="col-lg-7 col-md-6 col-12 instant-container mt-5">
             <div className="hero_heading_box">
               <h1>Get an Instant offer and sell your home</h1>
               <form id="home_value_search_form">
@@ -22,7 +22,7 @@ const Banner = () => {
                     autoComplete="off"
                   />
                   <button
-                    className="btn btn-primary"
+                    className="btn btn-primary mr-2"
                     type="button"
                     onClick="if (!window.__cfRLUnblockHandlers) return false; checkSubmission('')"
                   >
@@ -33,7 +33,7 @@ const Banner = () => {
               <p>Receive an offer within 24 hours, it's that simple!</p>
             </div>
           </div>
-          <div className="col-md-6 mt-2">
+          <div className="col-lg-5 col-md-6 col-12 mt-2">
             <img className="img" src={banner} alt="Home Banner" />
           </div>
         </div>

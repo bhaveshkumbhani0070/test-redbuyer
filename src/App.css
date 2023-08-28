@@ -706,7 +706,7 @@ button.btn.btn-primary {
   font-size: 16px;
   padding: 10px 20px;
   font-weight: 500;
-  border-radius: 5px;
+  border-radius: 12px;
   border: 1px solid #0061df;
   background: #0061df;
 }
@@ -789,9 +789,10 @@ button.btn.btn-primary {
 .container--login {
   padding-top: 144.2px;
 }
-.container-fluid {
+/* .container-fluid {
   max-width: 1320px;
-}
+} */
+
 .search-content {
   max-width: 540px;
   margin: auto;
@@ -851,4 +852,31 @@ button.btn.btn-primary {
 
 .right {
   margin-left: 10px; /* Add spacing between the arrows */
+}
+.po-rela {
+  position: relative;
+}
+.home--img {
+  width: 10%;
+  position: absolute;
+  right: 80px;
+  z-index: 3;
+}
+.home--line {
+  width: 90%;
+  position: absolute;
+  top: -53px;
+  right: 0px;
+}
+.start-icon {
+  width: 8%;
+  position: absolute;
+  left: 42px;
+  z-index: 3;
+}
+.start-line {
+  width: 50%;
+  position: absolute;
+  top: -173px;
+  left: 0;
 }

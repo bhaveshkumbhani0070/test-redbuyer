@@ -2,12 +2,16 @@ import React from "react";
 import staticHome from "../assets/images@2x.png";
 import charmPointer from "../assets/charm-pointer.png";
 import pointerLines from "../assets/pointer-lines.png";
+import home from "../assets/home.svg";
+import home_line from "../assets/home--line.png";
 
 const Works = () => {
   return (
     <div className="how-works">
       {/* Section Title */}
-      <div className="text-center">
+      <div className="text-center po-rela">
+        <img src={home} class="home--img" alt="homeimage" />
+        <img src={home_line} class="home--line" alt="home line" />
         <h2>
           <b>Let's See How it Works</b>
         </h2>
