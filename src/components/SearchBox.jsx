@@ -7,7 +7,7 @@ const SearchBox = () => {
     <>
       <div className="search-section po-rela">
         {/* Search Section Container */}
-        <img src={home_line} class="home--line" alt="home line" />
+        <img src={home_line} class="home--line line-none" alt="home line" />
         <div className="container-fluid ">
           <div className="search-div ">
             {/* Search Inner Content */}

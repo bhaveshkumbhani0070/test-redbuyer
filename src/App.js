@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from "react-redux";
-import { Routes, Route, Navigate, useRoutes } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Header from './components/Header'
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";

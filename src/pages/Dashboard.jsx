@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Shimmer from "../components/Shimmer";
-import PropertyCard from "../components/PropertyCard";
+import Card from "../components/Card";
 import { get_api } from "../service";
 
 const Dashboard = () => {
@@ -33,7 +33,7 @@ const Dashboard = () => {
           <p className="text-center">View your Dream Home</p>
           <div className="row">
             {data.map((item, index) => (
-              <PropertyCard item={item} key={index} />
+              <Card item={item} key={index} />
             ))}
           </div>
         </div>

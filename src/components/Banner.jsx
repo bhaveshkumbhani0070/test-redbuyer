@@ -1,12 +1,12 @@
 import React from "react";
-import banner from "../assets/home_banner.png";
+import banner from "../assets/banner.svg";
 import icon from "../assets/icon.svg";
 
 const Banner = () => {
   return (
     <div className="home-page">
       <div className="container-fluid">
-        <div className="row">
+        <div className="row mobile--banner">
           <div className="col-lg-7 col-md-6 col-12 instant-container mt-5">
             <div className="hero_heading_box">
               <h1>Get an Instant offer and sell your home</h1>

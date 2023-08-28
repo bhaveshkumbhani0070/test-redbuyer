@@ -4,7 +4,7 @@ import email from "../assets/email.svg";
 import social from "../assets/social.png";
 
 const FooterLinkList = ({ title, links }) => (
-  <div className="width-20">
+  <div className="col-lg-2 col-md-6 col-6">
     <div className="footer-section">
       <h6 className="icon-color text-uppercase font-weight-700">{title}</h6>
       <ul className="list-unstyled font-small grey-color">
@@ -90,7 +90,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
-        <div className="row mb-3">
+        <div className="row mb-3 just-center">
           {footerSections.map((section, index) => (
             <FooterLinkList
               key={index}
